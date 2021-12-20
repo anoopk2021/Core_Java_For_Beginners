@@ -1,6 +1,7 @@
 public class Demo {
 
-    /*  { }  Curly Bracket
+    /*
+        { }  Curly Bracket
         [ ]  Square Bracket
         //   Used For Comment only
          ;   Semi Colon
