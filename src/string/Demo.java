@@ -4,9 +4,9 @@ public class Demo {
 
     public static void main(String[] args) {
 
-        String s="Java";
+        String s="Java";// This Object goes to string pool
         String s1="Java";
-        String s2= new String("Java");
+        String s2= new String("Java");//Object made with new keyword goes to heap memory
         String s3= new String ("Java");
 
         if(s==s1){
@@ -25,6 +25,7 @@ public class Demo {
             System.out.println("s2 and s3 are at same memory location");
         }
 
+        //equals check contents/data
 
         if (s.equals(s1)){
 
